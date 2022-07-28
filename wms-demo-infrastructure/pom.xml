@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>wms-demo</artifactId>
+        <groupId>com.wms</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>wms-demo-infrastructure</artifactId>
+    <properties>
+        <slf4j-log4j12.version>1.7.25</slf4j-log4j12.version>
+        <dubbo.version>3.0.5</dubbo.version>
+        <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
+        <ons-client.version>1.8.8.5.Final</ons-client.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${dubbo.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.aliyun.openservices</groupId>
+            <artifactId>ons-client</artifactId>
+            <!--以下版本号请替换为Java SDK的最新版本号-->
+            <version>${ons-client.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.76</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>

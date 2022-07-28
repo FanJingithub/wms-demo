@@ -1,0 +1,2 @@
+getTraceFromRpcFilter=com.wms.demo.infrastructure.filter.GetTraceFromRpcFilter
+setTraceIntoRpcFilter=com.wms.demo.infrastructure.filter.SetTraceIntoRpcFilter
